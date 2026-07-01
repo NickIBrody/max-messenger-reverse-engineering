@@ -1,0 +1,61 @@
+.class public final Lbdl;
+.super Ls95;
+.source "SourceFile"
+
+
+# static fields
+.field public static final b:Lbdl;
+
+.field public static final c:Ln95;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 8
+
+    new-instance v0, Lbdl;
+
+    invoke-direct {v0}, Lbdl;-><init>()V
+
+    sput-object v0, Lbdl;->b:Lbdl;
+
+    const-string v1, "chat_id"
+
+    const-string v2, "msg_id"
+
+    filled-new-array {v1, v2}, [Ljava/lang/String;
+
+    move-result-object v2
+
+    const-string v1, "video_url"
+
+    invoke-static {v1}, Lioh;->d(Ljava/lang/Object;)Ljava/util/Set;
+
+    move-result-object v3
+
+    const/16 v6, 0xc
+
+    const/4 v7, 0x0
+
+    const-string v1, ":videoweb/full"
+
+    const/4 v4, 0x0
+
+    const/4 v5, 0x0
+
+    invoke-static/range {v0 .. v7}, Ls95;->d(Ls95;Ljava/lang/String;[Ljava/lang/String;Ljava/util/Set;Lywg;ZILjava/lang/Object;)Ln95;
+
+    move-result-object v0
+
+    sput-object v0, Lbdl;->c:Ln95;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ls95;-><init>()V
+
+    return-void
+.end method

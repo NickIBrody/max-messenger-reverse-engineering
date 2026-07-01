@@ -1,0 +1,175 @@
+.class public final Lone/me/sdk/phoneutils/OneMePhoneNumberInput$special$$inlined$doOnTextChanged$1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/text/TextWatcher;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lone/me/sdk/phoneutils/OneMePhoneNumberInput;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000%\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\r\n\u0000\n\u0002\u0010\u0008\n\u0002\u0008\t*\u0001\u0000\u0008\n\u0018\u00002\u00020\u0001J\u0019\u0010\u0005\u001a\u00020\u00042\u0008\u0010\u0003\u001a\u0004\u0018\u00010\u0002H\u0016\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J1\u0010\r\u001a\u00020\u00042\u0008\u0010\u0008\u001a\u0004\u0018\u00010\u00072\u0006\u0010\n\u001a\u00020\t2\u0006\u0010\u000b\u001a\u00020\t2\u0006\u0010\u000c\u001a\u00020\tH\u0016\u00a2\u0006\u0004\u0008\r\u0010\u000eJ1\u0010\u0010\u001a\u00020\u00042\u0008\u0010\u0008\u001a\u0004\u0018\u00010\u00072\u0006\u0010\n\u001a\u00020\t2\u0006\u0010\u000f\u001a\u00020\t2\u0006\u0010\u000b\u001a\u00020\tH\u0016\u00a2\u0006\u0004\u0008\u0010\u0010\u000e\u00a8\u0006\u0012\u00b8\u0006\u0011"
+    }
+    d2 = {
+        "androidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1",
+        "Landroid/text/TextWatcher;",
+        "Landroid/text/Editable;",
+        "s",
+        "Lpkk;",
+        "afterTextChanged",
+        "(Landroid/text/Editable;)V",
+        "",
+        "text",
+        "",
+        "start",
+        "count",
+        "after",
+        "beforeTextChanged",
+        "(Ljava/lang/CharSequence;III)V",
+        "before",
+        "onTextChanged",
+        "androidx/core/widget/TextViewKt$doOnTextChanged$$inlined$addTextChangedListener$default$1",
+        "core-ktx_release"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x3,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lone/me/sdk/phoneutils/OneMePhoneNumberInput;
+
+
+# direct methods
+.method public constructor <init>(Lone/me/sdk/phoneutils/OneMePhoneNumberInput;)V
+    .locals 0
+
+    iput-object p1, p0, Lone/me/sdk/phoneutils/OneMePhoneNumberInput$special$$inlined$doOnTextChanged$1;->this$0:Lone/me/sdk/phoneutils/OneMePhoneNumberInput;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public afterTextChanged(Landroid/text/Editable;)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public beforeTextChanged(Ljava/lang/CharSequence;III)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public onTextChanged(Ljava/lang/CharSequence;III)V
+    .locals 0
+
+    const/4 p2, 0x1
+
+    if-le p4, p2, :cond_3
+
+    iget-object p2, p0, Lone/me/sdk/phoneutils/OneMePhoneNumberInput$special$$inlined$doOnTextChanged$1;->this$0:Lone/me/sdk/phoneutils/OneMePhoneNumberInput;
+
+    invoke-static {p2}, Lone/me/sdk/phoneutils/OneMePhoneNumberInput;->access$getOnDelPressing$p(Lone/me/sdk/phoneutils/OneMePhoneNumberInput;)Z
+
+    move-result p2
+
+    if-nez p2, :cond_3
+
+    iget-object p2, p0, Lone/me/sdk/phoneutils/OneMePhoneNumberInput$special$$inlined$doOnTextChanged$1;->this$0:Lone/me/sdk/phoneutils/OneMePhoneNumberInput;
+
+    invoke-static {p2}, Lone/me/sdk/phoneutils/OneMePhoneNumberInput;->access$getSelectedCountry$p(Lone/me/sdk/phoneutils/OneMePhoneNumberInput;)Lone/me/sdk/phoneutils/OneMeCountryModel;
+
+    move-result-object p2
+
+    if-eqz p2, :cond_3
+
+    invoke-virtual {p2}, Lone/me/sdk/phoneutils/OneMeCountryModel;->getCountryNameCode()Ljava/lang/String;
+
+    move-result-object p2
+
+    if-nez p2, :cond_0
+
+    goto :goto_1
+
+    :cond_0
+    invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object p1
+
+    iget-object p3, p0, Lone/me/sdk/phoneutils/OneMePhoneNumberInput$special$$inlined$doOnTextChanged$1;->this$0:Lone/me/sdk/phoneutils/OneMePhoneNumberInput;
+
+    invoke-virtual {p3}, Lone/me/sdk/phoneutils/OneMePhoneNumberInput;->getPhoneFormatterProvider()Lone/me/sdk/phoneutils/OneMePhoneNumberInput$a;
+
+    move-result-object p3
+
+    if-eqz p3, :cond_2
+
+    invoke-interface {p3, p2, p1}, Lone/me/sdk/phoneutils/OneMePhoneNumberInput$a;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p2
+
+    if-nez p2, :cond_1
+
+    goto :goto_0
+
+    :cond_1
+    move-object p1, p2
+
+    :cond_2
+    :goto_0
+    iget-object p2, p0, Lone/me/sdk/phoneutils/OneMePhoneNumberInput$special$$inlined$doOnTextChanged$1;->this$0:Lone/me/sdk/phoneutils/OneMePhoneNumberInput;
+
+    invoke-static {p2}, Lone/me/sdk/phoneutils/OneMePhoneNumberInput;->access$getPhoneEditText$p(Lone/me/sdk/phoneutils/OneMePhoneNumberInput;)Landroid/widget/EditText;
+
+    move-result-object p2
+
+    iget-object p3, p0, Lone/me/sdk/phoneutils/OneMePhoneNumberInput$special$$inlined$doOnTextChanged$1;->this$0:Lone/me/sdk/phoneutils/OneMePhoneNumberInput;
+
+    invoke-static {p3}, Lone/me/sdk/phoneutils/OneMePhoneNumberInput;->access$getPasteTextFormater$p(Lone/me/sdk/phoneutils/OneMePhoneNumberInput;)Landroid/text/TextWatcher;
+
+    move-result-object p3
+
+    invoke-virtual {p2, p3}, Landroid/widget/TextView;->removeTextChangedListener(Landroid/text/TextWatcher;)V
+
+    iget-object p2, p0, Lone/me/sdk/phoneutils/OneMePhoneNumberInput$special$$inlined$doOnTextChanged$1;->this$0:Lone/me/sdk/phoneutils/OneMePhoneNumberInput;
+
+    invoke-virtual {p2, p1}, Lone/me/sdk/phoneutils/OneMePhoneNumberInput;->setText(Ljava/lang/CharSequence;)V
+
+    iget-object p1, p0, Lone/me/sdk/phoneutils/OneMePhoneNumberInput$special$$inlined$doOnTextChanged$1;->this$0:Lone/me/sdk/phoneutils/OneMePhoneNumberInput;
+
+    invoke-static {p1}, Lone/me/sdk/phoneutils/OneMePhoneNumberInput;->access$getPhoneEditText$p(Lone/me/sdk/phoneutils/OneMePhoneNumberInput;)Landroid/widget/EditText;
+
+    move-result-object p1
+
+    iget-object p2, p0, Lone/me/sdk/phoneutils/OneMePhoneNumberInput$special$$inlined$doOnTextChanged$1;->this$0:Lone/me/sdk/phoneutils/OneMePhoneNumberInput;
+
+    invoke-static {p2}, Lone/me/sdk/phoneutils/OneMePhoneNumberInput;->access$getPasteTextFormater$p(Lone/me/sdk/phoneutils/OneMePhoneNumberInput;)Landroid/text/TextWatcher;
+
+    move-result-object p2
+
+    invoke-virtual {p1, p2}, Landroid/widget/TextView;->addTextChangedListener(Landroid/text/TextWatcher;)V
+
+    :cond_3
+    :goto_1
+    return-void
+.end method

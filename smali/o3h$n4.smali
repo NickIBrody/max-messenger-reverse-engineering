@@ -1,0 +1,64 @@
+.class public final Lo3h$n4;
+.super Lrbi;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lo3h;->a(Liag;Lsmj;Ljji;Z)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Lrbi;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public b(Li4;)Ljava/lang/Object;
+    .locals 4
+
+    new-instance v0, Lo2g;
+
+    const/16 v1, 0x91
+
+    invoke-virtual {p1, v1}, Li4;->g(I)Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lvz2;
+
+    const/16 v2, 0x92
+
+    invoke-virtual {p1, v2}, Li4;->g(I)Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Lum4;
+
+    const/16 v3, 0x278
+
+    invoke-virtual {p1, v3}, Li4;->g(I)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lslj;
+
+    invoke-interface {p1}, Lslj;->d()Lzyg;
+
+    move-result-object p1
+
+    invoke-direct {v0, v1, v2, p1}, Lo2g;-><init>(Lvz2;Lum4;Lzyg;)V
+
+    return-object v0
+.end method

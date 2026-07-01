@@ -1,0 +1,68 @@
+.class public final Ljv4$a;
+.super Li0;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Ljv4;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    .line 2
+    sget-object v0, Lwq4;->d0:Lwq4$b;
+
+    new-instance v1, Liv4;
+
+    invoke-direct {v1}, Liv4;-><init>()V
+
+    .line 3
+    invoke-direct {p0, v0, v1}, Li0;-><init>(Lcv4$c;Ldt7;)V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lxd5;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljv4$a;-><init>()V
+
+    return-void
+.end method
+
+.method public static synthetic c(Lcv4$b;)Ljv4;
+    .locals 0
+
+    invoke-static {p0}, Ljv4$a;->d(Lcv4$b;)Ljv4;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static final d(Lcv4$b;)Ljv4;
+    .locals 1
+
+    instance-of v0, p0, Ljv4;
+
+    if-eqz v0, :cond_0
+
+    check-cast p0, Ljv4;
+
+    return-object p0
+
+    :cond_0
+    const/4 p0, 0x0
+
+    return-object p0
+.end method
