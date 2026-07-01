@@ -1,11 +1,14 @@
 # MAX Messenger — Полный реверс-инжиниринг
 
+> ⚠️ **Правовое уведомление:** Данная публикация осуществлена в образовательных целях и в целях исследования безопасности в общественных интересах. Все права на оригинальный код принадлежат VK Group. Декомпиляция проведена в соответствии со ст. 1280 и 1274 ГК РФ. Подробнее: [DISCLAIMER.md](./DISCLAIMER.md) | [SECURITY_RESEARCH.md](./SECURITY_RESEARCH.md)
+
 <div align="center">
 
 ![MAX Messenger](https://img.shields.io/badge/MAX_Messenger-26.19.2_(6733)-blue?style=for-the-badge)
 ![Language](https://img.shields.io/badge/Language-Kotlin_%2B_Java_%2B_C%2B%2B-orange?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Полный_анализ-green?style=for-the-badge)
 ![GOST](https://img.shields.io/badge/ГОСТ_TLS-КриптоПро_CSP-red?style=for-the-badge)
+![Research](https://img.shields.io/badge/Цель-Security_Research-yellow?style=for-the-badge)
 
 **Полный реверс-инжиниринг «национального мессенджера» России от VK Group**
 
@@ -28,6 +31,8 @@
 | [`/smali_classes6`](./smali_classes6/) | Dalvik байткод classes6.dex | 63MB |
 | [`/resources`](./resources/) | XML, строки, манифест, layout | 17MB |
 | [`/analysis`](./analysis/) | Детальный анализ по компонентам | — |
+| [📄 DISCLAIMER.md](./DISCLAIMER.md) | Правовое уведомление (RU + EN) | — |
+| [🔬 SECURITY_RESEARCH.md](./SECURITY_RESEARCH.md) | Обоснование исследования | — |
 
 ### Аналитические документы
 
