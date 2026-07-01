@@ -1,0 +1,36 @@
+.class public final synthetic Lnw1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lbt7;
+
+
+# instance fields
+.field public final synthetic w:Lone/me/calls/ui/view/CallScreenView;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lone/me/calls/ui/view/CallScreenView;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lnw1;->w:Lone/me/calls/ui/view/CallScreenView;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    iget-object v0, p0, Lnw1;->w:Lone/me/calls/ui/view/CallScreenView;
+
+    invoke-static {v0}, Lone/me/calls/ui/view/CallScreenView;->l(Lone/me/calls/ui/view/CallScreenView;)Lfp1;
+
+    move-result-object v0
+
+    return-object v0
+.end method

@@ -1,0 +1,828 @@
+.class public final Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup;
+.super Landroid/view/ViewGroup;
+.source "SourceFile"
+
+# interfaces
+.implements Lovj;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup$a;,
+        Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup$b;
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000R\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0010\u000b\n\u0000\n\u0002\u0010\u0008\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u000e\n\u0002\u0008\u0014\n\u0002\u0018\u0002\n\u0002\u0008\u0007\u0008\u0000\u0018\u0000 32\u00020\u00012\u00020\u0002:\u00024+B\u001b\u0012\u0006\u0010\u0004\u001a\u00020\u0003\u0012\n\u0008\u0002\u0010\u0006\u001a\u0004\u0018\u00010\u0005\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J#\u0010\u000f\u001a\u00020\u000e*\u00020\t2\u0006\u0010\u000b\u001a\u00020\n2\u0006\u0010\r\u001a\u00020\u000cH\u0002\u00a2\u0006\u0004\u0008\u000f\u0010\u0010J$\u0010\u0013\u001a\u00020\u000e2\u0012\u0010\u0012\u001a\u000e\u0012\u0004\u0012\u00020\t\u0012\u0004\u0012\u00020\u000e0\u0011H\u0082\u0008\u00a2\u0006\u0004\u0008\u0013\u0010\u0014J\u001b\u0010\u0017\u001a\u00020\u000e*\u00020\t2\u0006\u0010\u0016\u001a\u00020\u0015H\u0002\u00a2\u0006\u0004\u0008\u0017\u0010\u0018J\u001d\u0010\u001b\u001a\u00020\u000e2\u0006\u0010\r\u001a\u00020\u000c2\u0006\u0010\u001a\u001a\u00020\u0019\u00a2\u0006\u0004\u0008\u001b\u0010\u001cJ\r\u0010\u001d\u001a\u00020\u000e\u00a2\u0006\u0004\u0008\u001d\u0010\u001eJ\r\u0010\u001f\u001a\u00020\u000e\u00a2\u0006\u0004\u0008\u001f\u0010\u001eJ\u0017\u0010!\u001a\u00020\u000e2\u0006\u0010 \u001a\u00020\u0015H\u0016\u00a2\u0006\u0004\u0008!\u0010\"J\u001f\u0010%\u001a\u00020\u000e2\u0006\u0010#\u001a\u00020\u000c2\u0006\u0010$\u001a\u00020\u000cH\u0014\u00a2\u0006\u0004\u0008%\u0010&J7\u0010,\u001a\u00020\u000e2\u0006\u0010\'\u001a\u00020\n2\u0006\u0010(\u001a\u00020\u000c2\u0006\u0010)\u001a\u00020\u000c2\u0006\u0010*\u001a\u00020\u000c2\u0006\u0010+\u001a\u00020\u000cH\u0014\u00a2\u0006\u0004\u0008,\u0010-J\u0019\u00100\u001a\u00020\u000e2\u0008\u0010/\u001a\u0004\u0018\u00010.H\u0007\u00a2\u0006\u0004\u00080\u00101R\u0018\u0010/\u001a\u0004\u0018\u00010.8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008/\u00102\u00a8\u00065"
+    }
+    d2 = {
+        "Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup;",
+        "Landroid/view/ViewGroup;",
+        "Lovj;",
+        "Landroid/content/Context;",
+        "context",
+        "Landroid/util/AttributeSet;",
+        "attrs",
+        "<init>",
+        "(Landroid/content/Context;Landroid/util/AttributeSet;)V",
+        "Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallChip;",
+        "",
+        "isChecked",
+        "",
+        "id",
+        "Lpkk;",
+        "changeState",
+        "(Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallChip;ZI)V",
+        "Lkotlin/Function1;",
+        "applyToChip",
+        "applyToChipGroup",
+        "(Ldt7;)V",
+        "Lccd;",
+        "theme",
+        "applyTheme",
+        "(Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallChip;Lccd;)V",
+        "",
+        "text",
+        "addChip",
+        "(ILjava/lang/String;)V",
+        "clearChips",
+        "()V",
+        "clearCheck",
+        "newAttrs",
+        "onThemeChanged",
+        "(Lccd;)V",
+        "widthMeasureSpec",
+        "heightMeasureSpec",
+        "onMeasure",
+        "(II)V",
+        "changed",
+        "l",
+        "t",
+        "r",
+        "b",
+        "onLayout",
+        "(ZIIII)V",
+        "Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup$a;",
+        "callback",
+        "setListener",
+        "(Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup$a;)V",
+        "Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup$a;",
+        "Companion",
+        "a",
+        "calls-ui_release"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x3,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final Companion:Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup$b;
+
+.field private static final HORIZONTAL_SPACE:I = 0xa
+
+.field private static final VERTICAL_SPACE:I = 0xa
+
+
+# instance fields
+.field private callback:Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup$a;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    new-instance v0, Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup$b;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1}, Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup$b;-><init>(Lxd5;)V
+
+    sput-object v0, Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup;->Companion:Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup$b;
+
+    return-void
+.end method
+
+.method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Landroid/view/ViewGroup;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;ILxd5;)V
+    .locals 0
+
+    and-int/lit8 p3, p3, 0x2
+
+    if-eqz p3, :cond_0
+
+    const/4 p2, 0x0
+
+    .line 2
+    :cond_0
+    invoke-direct {p0, p1, p2}, Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+
+    return-void
+.end method
+
+.method public static synthetic a(Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallChip;Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup;ILandroid/view/View;)V
+    .locals 0
+
+    invoke-static {p0, p1, p2, p3}, Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup;->addChip$lambda$0$0(Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallChip;Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup;ILandroid/view/View;)V
+
+    return-void
+.end method
+
+.method private static final addChip$lambda$0$0(Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallChip;Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup;ILandroid/view/View;)V
+    .locals 0
+
+    invoke-virtual {p0}, Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallChip;->toggle()V
+
+    invoke-virtual {p0}, Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallChip;->isChecked()Z
+
+    move-result p3
+
+    invoke-direct {p1, p0, p3, p2}, Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup;->changeState(Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallChip;ZI)V
+
+    return-void
+.end method
+
+.method private final applyTheme(Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallChip;Lccd;)V
+    .locals 6
+
+    new-instance v0, Landroid/content/res/ColorStateList;
+
+    const v1, 0x10100a0
+
+    filled-new-array {v1}, [I
+
+    move-result-object v2
+
+    const/4 v3, 0x0
+
+    new-array v4, v3, [I
+
+    filled-new-array {v2, v4}, [[I
+
+    move-result-object v2
+
+    invoke-interface {p2}, Lccd;->getText()Lccd$a0;
+
+    move-result-object v4
+
+    invoke-virtual {v4}, Lccd$a0;->g()I
+
+    move-result v4
+
+    invoke-interface {p2}, Lccd;->getText()Lccd$a0;
+
+    move-result-object v5
+
+    invoke-virtual {v5}, Lccd$a0;->f()I
+
+    move-result v5
+
+    filled-new-array {v4, v5}, [I
+
+    move-result-object v4
+
+    invoke-direct {v0, v2, v4}, Landroid/content/res/ColorStateList;-><init>([[I[I)V
+
+    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setTextColor(Landroid/content/res/ColorStateList;)V
+
+    new-instance v0, Landroid/content/res/ColorStateList;
+
+    filled-new-array {v1}, [I
+
+    move-result-object v1
+
+    new-array v2, v3, [I
+
+    filled-new-array {v1, v2}, [[I
+
+    move-result-object v1
+
+    invoke-interface {p2}, Lccd;->h()Lccd$d;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lccd$d;->h()I
+
+    move-result v2
+
+    invoke-interface {p2}, Lccd;->h()Lccd$d;
+
+    move-result-object p2
+
+    invoke-virtual {p2}, Lccd$d;->j()I
+
+    move-result p2
+
+    filled-new-array {v2, p2}, [I
+
+    move-result-object p2
+
+    invoke-direct {v0, v1, p2}, Landroid/content/res/ColorStateList;-><init>([[I[I)V
+
+    invoke-virtual {p1, v0}, Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallChip;->setBackgroundColors(Landroid/content/res/ColorStateList;)V
+
+    return-void
+.end method
+
+.method private final applyToChipGroup(Ldt7;)V
+    .locals 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ldt7;",
+            ")V"
+        }
+    .end annotation
+
+    invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
+
+    move-result v0
+
+    const/4 v1, 0x0
+
+    :goto_0
+    if-ge v1, v0, :cond_1
+
+    invoke-virtual {p0, v1}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
+
+    move-result-object v2
+
+    instance-of v3, v2, Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallChip;
+
+    if-eqz v3, :cond_0
+
+    invoke-interface {p1, v2}, Ldt7;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+    :cond_0
+    add-int/lit8 v1, v1, 0x1
+
+    goto :goto_0
+
+    :cond_1
+    return-void
+.end method
+
+.method private final changeState(Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallChip;ZI)V
+    .locals 0
+
+    if-eqz p2, :cond_1
+
+    iget-object p1, p0, Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup;->callback:Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup$a;
+
+    if-eqz p1, :cond_0
+
+    invoke-interface {p1, p3}, Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup$a;->n0(I)V
+
+    :cond_0
+    return-void
+
+    :cond_1
+    iget-object p2, p0, Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup;->callback:Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup$a;
+
+    if-eqz p2, :cond_2
+
+    invoke-interface {p2, p3}, Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup$a;->u3(I)V
+
+    :cond_2
+    const/4 p2, 0x0
+
+    invoke-virtual {p1, p2}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final addChip(ILjava/lang/String;)V
+    .locals 7
+
+    new-instance v0, Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallChip;
+
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    const/4 v4, 0x6
+
+    const/4 v5, 0x0
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x0
+
+    invoke-direct/range {v0 .. v5}, Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallChip;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILxd5;)V
+
+    invoke-static {p1}, Ljava/lang/Integer;->hashCode(I)I
+
+    move-result v1
+
+    invoke-virtual {v0, v1}, Landroid/view/View;->setId(I)V
+
+    invoke-virtual {v0, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    new-instance p2, Landroid/view/ViewGroup$LayoutParams;
+
+    const/4 v1, -0x2
+
+    invoke-direct {p2, v1, v1}, Landroid/view/ViewGroup$LayoutParams;-><init>(II)V
+
+    invoke-virtual {v0, p2}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+
+    const/4 p2, 0x4
+
+    invoke-virtual {v0, p2}, Landroid/view/View;->setTextAlignment(I)V
+
+    invoke-virtual {v0}, Landroid/widget/TextView;->getPaint()Landroid/text/TextPaint;
+
+    move-result-object v1
+
+    sget-object p2, Loik;->a:Loik;
+
+    invoke-virtual {p2}, Loik;->p()Lstj;
+
+    move-result-object v2
+
+    const/16 v5, 0xc
+
+    const/4 v6, 0x0
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x0
+
+    invoke-static/range {v0 .. v6}, Lbtj;->d(Landroid/view/View;Landroid/text/TextPaint;Lstj;Landroid/util/DisplayMetrics;La76;ILjava/lang/Object;)V
+
+    const/4 p2, 0x0
+
+    invoke-virtual {v0, p2}, Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallChip;->setChecked(Z)V
+
+    sget-object p2, Lip3;->j:Lip3$a;
+
+    invoke-virtual {p2, v0}, Lip3$a;->b(Landroid/view/View;)Lccd;
+
+    move-result-object p2
+
+    invoke-direct {p0, v0, p2}, Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup;->applyTheme(Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallChip;Lccd;)V
+
+    invoke-virtual {v0}, Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallChip;->isChecked()Z
+
+    move-result p2
+
+    invoke-direct {p0, v0, p2, p1}, Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup;->changeState(Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallChip;ZI)V
+
+    new-instance p2, Lswf;
+
+    invoke-direct {p2, v0, p0, p1}, Lswf;-><init>(Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallChip;Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup;I)V
+
+    invoke-virtual {v0, p2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    invoke-virtual {p0, v0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+
+    return-void
+.end method
+
+.method public final clearCheck()V
+    .locals 5
+
+    invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
+
+    move-result v0
+
+    const/4 v1, 0x0
+
+    move v2, v1
+
+    :goto_0
+    if-ge v2, v0, :cond_1
+
+    invoke-virtual {p0, v2}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
+
+    move-result-object v3
+
+    instance-of v4, v3, Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallChip;
+
+    if-eqz v4, :cond_0
+
+    check-cast v3, Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallChip;
+
+    invoke-virtual {v3, v1}, Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallChip;->setChecked(Z)V
+
+    :cond_0
+    add-int/lit8 v2, v2, 0x1
+
+    goto :goto_0
+
+    :cond_1
+    return-void
+.end method
+
+.method public final clearChips()V
+    .locals 0
+
+    invoke-virtual {p0}, Landroid/view/ViewGroup;->removeAllViews()V
+
+    return-void
+.end method
+
+.method public onLayout(ZIIII)V
+    .locals 7
+
+    invoke-virtual {p0}, Landroid/view/View;->getMeasuredWidth()I
+
+    move-result p1
+
+    invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
+
+    move-result p2
+
+    const/4 p3, 0x0
+
+    move p4, p3
+
+    move p5, p4
+
+    move v0, p5
+
+    move v1, v0
+
+    move v2, v1
+
+    :goto_0
+    const/16 v3, 0xa
+
+    if-ge p4, p2, :cond_2
+
+    invoke-virtual {p0, p4}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
+
+    move-result-object v4
+
+    invoke-virtual {v4}, Landroid/view/View;->getMeasuredWidth()I
+
+    move-result v5
+
+    add-int/2addr v5, p5
+
+    if-le v5, p1, :cond_1
+
+    int-to-float v5, v3
+
+    invoke-static {}, Lmu5;->i()Landroid/content/res/Resources;
+
+    move-result-object v6
+
+    invoke-virtual {v6}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+
+    move-result-object v6
+
+    iget v6, v6, Landroid/util/DisplayMetrics;->density:F
+
+    mul-float/2addr v6, v5
+
+    invoke-static {v6}, Lp4a;->d(F)I
+
+    move-result v6
+
+    sub-int/2addr p5, v6
+
+    sub-int p5, p1, p5
+
+    div-int/lit8 p5, p5, 0x2
+
+    :goto_1
+    if-ge v0, p4, :cond_0
+
+    invoke-virtual {p0, v0}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
+
+    move-result-object v6
+
+    invoke-virtual {v6, p5}, Landroid/view/View;->offsetLeftAndRight(I)V
+
+    add-int/lit8 v0, v0, 0x1
+
+    goto :goto_1
+
+    :cond_0
+    invoke-static {}, Lmu5;->i()Landroid/content/res/Resources;
+
+    move-result-object p5
+
+    invoke-virtual {p5}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+
+    move-result-object p5
+
+    iget p5, p5, Landroid/util/DisplayMetrics;->density:F
+
+    mul-float/2addr v5, p5
+
+    invoke-static {v5}, Lp4a;->d(F)I
+
+    move-result p5
+
+    add-int/2addr v2, p5
+
+    add-int/2addr v1, v2
+
+    move p5, p3
+
+    move v2, p5
+
+    move v0, p4
+
+    :cond_1
+    invoke-virtual {v4}, Landroid/view/View;->getMeasuredWidth()I
+
+    move-result v5
+
+    add-int/2addr v5, p5
+
+    invoke-virtual {v4}, Landroid/view/View;->getMeasuredHeight()I
+
+    move-result v6
+
+    add-int/2addr v6, v1
+
+    invoke-virtual {v4, p5, v1, v5, v6}, Landroid/view/View;->layout(IIII)V
+
+    invoke-virtual {v4}, Landroid/view/View;->getMeasuredWidth()I
+
+    move-result v5
+
+    int-to-float v3, v3
+
+    invoke-static {}, Lmu5;->i()Landroid/content/res/Resources;
+
+    move-result-object v6
+
+    invoke-virtual {v6}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+
+    move-result-object v6
+
+    iget v6, v6, Landroid/util/DisplayMetrics;->density:F
+
+    mul-float/2addr v3, v6
+
+    invoke-static {v3}, Lp4a;->d(F)I
+
+    move-result v3
+
+    add-int/2addr v5, v3
+
+    add-int/2addr p5, v5
+
+    invoke-virtual {v4}, Landroid/view/View;->getMeasuredHeight()I
+
+    move-result v3
+
+    invoke-static {v2, v3}, Ljava/lang/Math;->max(II)I
+
+    move-result v2
+
+    add-int/lit8 p4, p4, 0x1
+
+    goto :goto_0
+
+    :cond_2
+    int-to-float p2, v3
+
+    invoke-static {}, Lmu5;->i()Landroid/content/res/Resources;
+
+    move-result-object p3
+
+    invoke-virtual {p3}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+
+    move-result-object p3
+
+    iget p3, p3, Landroid/util/DisplayMetrics;->density:F
+
+    mul-float/2addr p2, p3
+
+    invoke-static {p2}, Lp4a;->d(F)I
+
+    move-result p2
+
+    sub-int/2addr p5, p2
+
+    sub-int/2addr p1, p5
+
+    div-int/lit8 p1, p1, 0x2
+
+    invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
+
+    move-result p2
+
+    :goto_2
+    if-ge v0, p2, :cond_3
+
+    invoke-virtual {p0, v0}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
+
+    move-result-object p3
+
+    invoke-virtual {p3, p1}, Landroid/view/View;->offsetLeftAndRight(I)V
+
+    add-int/lit8 v0, v0, 0x1
+
+    goto :goto_2
+
+    :cond_3
+    return-void
+.end method
+
+.method public onMeasure(II)V
+    .locals 11
+
+    invoke-static {p1}, Landroid/view/View$MeasureSpec;->getSize(I)I
+
+    move-result v0
+
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingStart()I
+
+    move-result v1
+
+    sub-int/2addr v0, v1
+
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingEnd()I
+
+    move-result v1
+
+    sub-int/2addr v0, v1
+
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
+
+    move-result v1
+
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingBottom()I
+
+    move-result v2
+
+    add-int/2addr v1, v2
+
+    invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
+
+    move-result v2
+
+    const/4 v3, 0x0
+
+    move v4, v3
+
+    move v5, v4
+
+    move v6, v5
+
+    :goto_0
+    if-ge v4, v2, :cond_2
+
+    invoke-virtual {p0, v4}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
+
+    move-result-object v7
+
+    invoke-virtual {p0, v7, p1, p2}, Landroid/view/ViewGroup;->measureChild(Landroid/view/View;II)V
+
+    const/16 v8, 0xa
+
+    if-eqz v6, :cond_0
+
+    int-to-float v9, v8
+
+    invoke-static {}, Lmu5;->i()Landroid/content/res/Resources;
+
+    move-result-object v10
+
+    invoke-virtual {v10}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+
+    move-result-object v10
+
+    iget v10, v10, Landroid/util/DisplayMetrics;->density:F
+
+    mul-float/2addr v9, v10
+
+    invoke-static {v9}, Lp4a;->d(F)I
+
+    move-result v9
+
+    goto :goto_1
+
+    :cond_0
+    move v9, v3
+
+    :goto_1
+    invoke-virtual {v7}, Landroid/view/View;->getMeasuredWidth()I
+
+    move-result v10
+
+    add-int/2addr v10, v6
+
+    add-int/2addr v10, v9
+
+    if-le v10, v0, :cond_1
+
+    int-to-float v6, v8
+
+    invoke-static {}, Lmu5;->i()Landroid/content/res/Resources;
+
+    move-result-object v8
+
+    invoke-virtual {v8}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+
+    move-result-object v8
+
+    iget v8, v8, Landroid/util/DisplayMetrics;->density:F
+
+    mul-float/2addr v6, v8
+
+    invoke-static {v6}, Lp4a;->d(F)I
+
+    move-result v6
+
+    add-int/2addr v5, v6
+
+    add-int/2addr v1, v5
+
+    move v5, v3
+
+    move v6, v5
+
+    :cond_1
+    add-int/2addr v6, v9
+
+    invoke-virtual {v7}, Landroid/view/View;->getMeasuredWidth()I
+
+    move-result v8
+
+    add-int/2addr v6, v8
+
+    invoke-virtual {v7}, Landroid/view/View;->getMeasuredHeight()I
+
+    move-result v7
+
+    invoke-static {v5, v7}, Ljava/lang/Math;->max(II)I
+
+    move-result v5
+
+    add-int/lit8 v4, v4, 0x1
+
+    goto :goto_0
+
+    :cond_2
+    add-int/2addr v1, v5
+
+    invoke-virtual {p0, v0, v1}, Landroid/view/View;->setMeasuredDimension(II)V
+
+    return-void
+.end method
+
+.method public onThemeChanged(Lccd;)V
+    .locals 4
+
+    invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
+
+    move-result v0
+
+    const/4 v1, 0x0
+
+    :goto_0
+    if-ge v1, v0, :cond_1
+
+    invoke-virtual {p0, v1}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
+
+    move-result-object v2
+
+    instance-of v3, v2, Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallChip;
+
+    if-eqz v3, :cond_0
+
+    check-cast v2, Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallChip;
+
+    invoke-direct {p0, v2, p1}, Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup;->applyTheme(Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallChip;Lccd;)V
+
+    :cond_0
+    add-int/lit8 v1, v1, 0x1
+
+    goto :goto_0
+
+    :cond_1
+    return-void
+.end method
+
+.method public final setListener(Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup$a;)V
+    .locals 0
+
+    iput-object p1, p0, Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup;->callback:Lone/me/calls/ui/bottomsheet/ratecall/view/RateCallReasonsChipGroup$a;
+
+    return-void
+.end method

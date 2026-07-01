@@ -1,0 +1,36 @@
+.class public final synthetic Lpl1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lbt7;
+
+
+# instance fields
+.field public final synthetic w:Lone/me/calls/ui/ui/indicator/CallIndicatorWidget;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lone/me/calls/ui/ui/indicator/CallIndicatorWidget;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lpl1;->w:Lone/me/calls/ui/ui/indicator/CallIndicatorWidget;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    iget-object v0, p0, Lpl1;->w:Lone/me/calls/ui/ui/indicator/CallIndicatorWidget;
+
+    invoke-static {v0}, Lone/me/calls/ui/ui/indicator/CallIndicatorWidget;->d4(Lone/me/calls/ui/ui/indicator/CallIndicatorWidget;)Lone/me/calls/ui/view/indicator/CallIndicatorView;
+
+    move-result-object v0
+
+    return-object v0
+.end method
