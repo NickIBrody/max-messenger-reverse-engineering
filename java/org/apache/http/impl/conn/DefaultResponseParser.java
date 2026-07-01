@@ -1,0 +1,60 @@
+package org.apache.http.impl.conn;
+
+import androidx.appcompat.widget.ActivityChooserView;
+import java.io.IOException;
+import org.apache.http.HttpException;
+import org.apache.http.HttpMessage;
+import org.apache.http.HttpResponseFactory;
+import org.apache.http.NoHttpResponseException;
+import org.apache.http.conn.params.ConnConnectionPNames;
+import org.apache.http.impl.p030io.AbstractMessageParser;
+import org.apache.http.message.LineParser;
+import org.apache.http.message.ParserCursor;
+import org.apache.http.p031io.SessionInputBuffer;
+import org.apache.http.params.HttpParams;
+import org.apache.http.util.CharArrayBuffer;
+
+@Deprecated
+/* loaded from: classes5.dex */
+public class DefaultResponseParser extends AbstractMessageParser {
+    private final CharArrayBuffer lineBuf;
+    private final int maxGarbageLines;
+    private final HttpResponseFactory responseFactory;
+
+    public DefaultResponseParser(SessionInputBuffer sessionInputBuffer, LineParser lineParser, HttpResponseFactory httpResponseFactory, HttpParams httpParams) {
+        super(sessionInputBuffer, lineParser, httpParams);
+        if (httpResponseFactory == null) {
+            throw new IllegalArgumentException("Response factory may not be null");
+        }
+        this.responseFactory = httpResponseFactory;
+        this.lineBuf = new CharArrayBuffer(128);
+        this.maxGarbageLines = httpParams.getIntParameter(ConnConnectionPNames.MAX_STATUS_LINE_GARBAGE, ActivityChooserView.ActivityChooserViewAdapter.MAX_ACTIVITY_COUNT_UNLIMITED);
+    }
+
+    /* JADX WARN: Code restructure failed: missing block: B:17:0x0050, code lost:
+    
+        throw new org.apache.http.ProtocolException("The server failed to respond with a valid HTTP response");
+     */
+    @Override // org.apache.http.impl.p030io.AbstractMessageParser
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+    */
+    public HttpMessage parseHead(SessionInputBuffer sessionInputBuffer) throws IOException, HttpException {
+        this.lineBuf.clear();
+        int i = 0;
+        while (true) {
+            int readLine = sessionInputBuffer.readLine(this.lineBuf);
+            if (readLine == -1 && i == 0) {
+                throw new NoHttpResponseException("The target server failed to respond");
+            }
+            ParserCursor parserCursor = new ParserCursor(0, this.lineBuf.length());
+            if (this.lineParser.hasProtocolVersion(this.lineBuf, parserCursor)) {
+                return this.responseFactory.newHttpResponse(this.lineParser.parseStatusLine(this.lineBuf, parserCursor), null);
+            }
+            if (readLine == -1 || i >= this.maxGarbageLines) {
+                break;
+            }
+            i++;
+        }
+    }
+}

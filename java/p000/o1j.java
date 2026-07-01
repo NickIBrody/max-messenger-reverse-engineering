@@ -41,12 +41,7 @@ public abstract class o1j {
     }
 
     /*  JADX ERROR: NullPointerException in pass: InitCodeVariables
-        java.lang.NullPointerException: Cannot invoke "jadx.core.dex.instructions.args.SSAVar.getPhiList()" because "resultVar" is null
-        	at jadx.core.dex.visitors.InitCodeVariables.collectConnectedVars(InitCodeVariables.java:119)
-        	at jadx.core.dex.visitors.InitCodeVariables.setCodeVar(InitCodeVariables.java:82)
-        	at jadx.core.dex.visitors.InitCodeVariables.initCodeVar(InitCodeVariables.java:74)
-        	at jadx.core.dex.visitors.InitCodeVariables.initCodeVars(InitCodeVariables.java:48)
-        	at jadx.core.dex.visitors.InitCodeVariables.visit(InitCodeVariables.java:29)
+        java.lang.NullPointerException
         */
     /* renamed from: c */
     public static final p000.n1j m56765c(androidx.work.C2051b r18) {

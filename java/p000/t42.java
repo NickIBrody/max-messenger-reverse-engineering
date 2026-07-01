@@ -112,12 +112,7 @@ public final class t42 {
     }
 
     /*  JADX ERROR: NullPointerException in pass: InitCodeVariables
-        java.lang.NullPointerException: Cannot invoke "jadx.core.dex.instructions.args.SSAVar.getPhiList()" because "resultVar" is null
-        	at jadx.core.dex.visitors.InitCodeVariables.collectConnectedVars(InitCodeVariables.java:119)
-        	at jadx.core.dex.visitors.InitCodeVariables.setCodeVar(InitCodeVariables.java:82)
-        	at jadx.core.dex.visitors.InitCodeVariables.initCodeVar(InitCodeVariables.java:74)
-        	at jadx.core.dex.visitors.InitCodeVariables.initCodeVars(InitCodeVariables.java:48)
-        	at jadx.core.dex.visitors.InitCodeVariables.visit(InitCodeVariables.java:29)
+        java.lang.NullPointerException
         */
     public /* synthetic */ t42(p000.iel r3, java.util.List r4, p000.vjk r5, p000.vc9 r6, boolean r7, p000.hj0 r8, boolean r9, boolean r10, int r11, p000.xd5 r12) {
         /*

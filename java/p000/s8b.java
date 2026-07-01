@@ -225,12 +225,7 @@ public final class s8b {
     }
 
     /*  JADX ERROR: NullPointerException in pass: InitCodeVariables
-        java.lang.NullPointerException: Cannot invoke "jadx.core.dex.instructions.args.SSAVar.getPhiList()" because "resultVar" is null
-        	at jadx.core.dex.visitors.InitCodeVariables.collectConnectedVars(InitCodeVariables.java:119)
-        	at jadx.core.dex.visitors.InitCodeVariables.setCodeVar(InitCodeVariables.java:82)
-        	at jadx.core.dex.visitors.InitCodeVariables.initCodeVar(InitCodeVariables.java:74)
-        	at jadx.core.dex.visitors.InitCodeVariables.initCodeVars(InitCodeVariables.java:48)
-        	at jadx.core.dex.visitors.InitCodeVariables.visit(InitCodeVariables.java:29)
+        java.lang.NullPointerException
         */
     public /* synthetic */ s8b(long r27, java.lang.String r29, long r30, java.lang.Long r32, long r33, java.lang.String r35, long r36, android.graphics.Bitmap r38, long r39, long r41, p000.iab r43, p000.p17 r44, p000.vfc r45, boolean r46, boolean r47, boolean r48, java.lang.String r49, int r50, p000.xd5 r51) {
         /*

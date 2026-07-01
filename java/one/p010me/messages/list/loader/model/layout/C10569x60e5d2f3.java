@@ -1,0 +1,31 @@
+package one.p010me.messages.list.loader.model.layout;
+
+import android.graphics.drawable.Drawable;
+import kotlin.Metadata;
+import one.p010me.sdk.uikit.common.span.FitFontImageSpan;
+import p000.ccd;
+import p000.cf3;
+import p000.yvj;
+
+@Metadata(m47686d1 = {"\u0000\u001b\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0003*\u0001\u0000\b\n\u0018\u00002\u00020\u00012\u00020\u0002J\u0017\u0010\u0006\u001a\u00020\u00052\u0006\u0010\u0004\u001a\u00020\u0003H\u0016¢\u0006\u0004\b\u0006\u0010\u0007¨\u0006\b¸\u0006\u0000"}, m47687d2 = {"one/me/messages/list/loader/model/layout/MessageBubbleLayoutsBuilder$fitFontChatThemableSpan$1", "Lone/me/sdk/uikit/common/span/FitFontImageSpan;", "Lcf3;", "Lccd$c$a;", "bubbleColors", "Lpkk;", "onBubbleColorsChanged", "(Lccd$c$a;)V", "message-list_release"}, m47688k = 1, m47689mv = {2, 3, 0}, m47691xi = 48)
+/* renamed from: one.me.messages.list.loader.model.layout.MessageBubbleLayoutsBuilder$buildSimpleLayout_T9sj_e4$lambda$0$$inlined$fitFontChatThemableSpan$1 */
+/* loaded from: classes4.dex */
+public final class C10569x60e5d2f3 extends FitFontImageSpan implements cf3 {
+    final /* synthetic */ Drawable $drawable;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public C10569x60e5d2f3(Drawable drawable) {
+        super(drawable, null, false, false, 14, null);
+        this.$drawable = drawable;
+    }
+
+    @Override // p000.cf3
+    public void onBubbleColorsChanged(ccd.C2744c.a bubbleColors) {
+        yvj.m114454b(this.$drawable, bubbleColors.m19032b().m19081i());
+    }
+
+    @Override // p000.cf3
+    public /* bridge */ /* synthetic */ void onColorsChanged(ccd ccdVar) {
+        super.onColorsChanged(ccdVar);
+    }
+}
