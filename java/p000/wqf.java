@@ -1,0 +1,54 @@
+package p000;
+
+/* loaded from: classes3.dex */
+public abstract class wqf {
+    public static int call_history_call_contact_action = 2131886469;
+    public static int call_history_call_create_banner_permission_denied_subtitle = 2131886470;
+    public static int call_history_call_create_banner_permission_denied_title = 2131886471;
+    public static int call_history_call_create_banner_subtitle = 2131886472;
+    public static int call_history_call_create_banner_title = 2131886473;
+    public static int call_history_call_create_link_error = 2131886474;
+    public static int call_history_call_history_empty_favorite_call = 2131886475;
+    public static int call_history_call_history_empty_subtitle = 2131886476;
+    public static int call_history_call_history_empty_title = 2131886477;
+    public static int call_history_call_tab_all = 2131886478;
+    public static int call_history_call_tab_missing = 2131886479;
+    public static int call_history_call_title = 2131886480;
+    public static int call_history_empty_state_subtitle = 2131886495;
+    public static int call_history_empty_state_title = 2131886496;
+    public static int call_history_info_copy_link = 2131886500;
+    public static int call_history_info_create_failed = 2131886501;
+    public static int call_history_info_creating = 2131886502;
+    public static int call_history_info_join_call = 2131886503;
+    public static int call_history_info_open_call_chat_title = 2131886504;
+    public static int call_history_info_recreate = 2131886505;
+    public static int call_history_info_share = 2131886506;
+    public static int call_history_info_start_call = 2131886507;
+    public static int call_history_info_title = 2131886508;
+    public static int call_history_info_try_load_link_again = 2131886509;
+    public static int call_history_item_call_audio_button_accessibility = 2131886510;
+    public static int call_history_item_call_call_title_with_count_calls = 2131886511;
+    public static int call_history_item_call_context_action_remove = 2131886512;
+    public static int call_history_item_call_context_action_select = 2131886513;
+    public static int call_history_item_call_count_no_users = 2131886514;
+    public static int call_history_item_call_group_call_title = 2131886515;
+    public static int call_history_item_call_incoming = 2131886516;
+    public static int call_history_item_call_link_call_description = 2131886517;
+    public static int call_history_item_call_missed = 2131886518;
+    public static int call_history_item_call_outgoing = 2131886519;
+    public static int call_history_item_call_reject = 2131886520;
+    public static int call_history_item_call_time_unit_min = 2131886521;
+    public static int call_history_item_call_time_unit_sec = 2131886522;
+    public static int call_history_item_call_toolbar_action_remove = 2131886523;
+    public static int call_history_item_call_unknown_call_title = 2131886524;
+    public static int call_history_item_call_video_button_accessibility = 2131886525;
+    public static int call_history_link_action_error = 2131886526;
+    public static int call_history_link_coped = 2131886527;
+    public static int call_history_link_send_title = 2131886529;
+    public static int call_history_missed_calls_empty_state_title = 2131886531;
+    public static int call_history_open_last_message_error = 2131886535;
+    public static int call_presettings_call_permissions_item = 2131886640;
+    public static int call_presettings_call_save_changes = 2131886641;
+    public static int call_presettings_change_call_name_empty_error = 2131886642;
+    public static int call_presettings_change_call_name_title = 2131886643;
+}

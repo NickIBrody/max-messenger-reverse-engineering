@@ -1,0 +1,54 @@
+package p000;
+
+/* loaded from: classes3.dex */
+public abstract class ulf {
+    public static int oneme_chatmedia_viewer_bulk_saving_all = 2131363016;
+    public static int oneme_chatmedia_viewer_bulk_saving_only_this = 2131363017;
+    public static int oneme_chatmedia_viewer_content_level_item_view_type = 2131363018;
+    public static int oneme_chatmedia_viewer_content_level_stub_view = 2131363019;
+    public static int oneme_chatmedia_viewer_fullscreen_view = 2131363020;
+    public static int oneme_chatmedia_viewer_info_panel_author_view = 2131363021;
+    public static int oneme_chatmedia_viewer_info_panel_current_time_view = 2131363022;
+    public static int oneme_chatmedia_viewer_info_panel_date_view = 2131363023;
+    public static int oneme_chatmedia_viewer_info_panel_duration_view = 2131363024;
+    public static int oneme_chatmedia_viewer_info_panel_forward_message_view = 2131363025;
+    public static int oneme_chatmedia_viewer_info_panel_mute_view = 2131363026;
+    public static int oneme_chatmedia_viewer_info_panel_view = 2131363027;
+    public static int oneme_chatmedia_viewer_info_panel_view_caption_text_container = 2131363028;
+    public static int oneme_chatmedia_viewer_pager = 2131363029;
+    public static int oneme_chatmedia_viewer_photo_gif_view = 2131363030;
+    public static int oneme_chatmedia_viewer_photo_item_view_type = 2131363031;
+    public static int oneme_chatmedia_viewer_photo_view = 2131363032;
+    public static int oneme_chatmedia_viewer_state_view = 2131363033;
+    public static int oneme_chatmedia_viewer_toolbar = 2131363034;
+    public static int oneme_chatmedia_viewer_toolbar_action_forward_attach = 2131363035;
+    public static int oneme_chatmedia_viewer_toolbar_action_goto_message = 2131363036;
+    public static int oneme_chatmedia_viewer_toolbar_action_save_gallery = 2131363037;
+    public static int oneme_chatmedia_viewer_toolbar_action_share = 2131363038;
+    public static int oneme_chatmedia_viewer_video_item_view_type = 2131363039;
+    public static int oneme_chatmedia_viewer_video_preview_view = 2131363040;
+    public static int oneme_chatmedia_viewer_video_view = 2131363041;
+    public static int oneme_chatmedia_viewer_video_zoom_view = 2131363042;
+    public static int oneme_longpress_playback_control_counter = 2131363258;
+    public static int oneme_longpress_playback_control_hint = 2131363259;
+    public static int oneme_longpress_playback_control_view = 2131363260;
+    public static int oneme_playback_settings_sheet_current_speed_view = 2131363393;
+    public static int oneme_playback_settings_sheet_drag_handle = 2131363394;
+    public static int oneme_playback_settings_sheet_preselected_speeds_view = 2131363395;
+    public static int oneme_playback_settings_sheet_preset_view = 2131363396;
+    public static int oneme_playback_settings_sheet_remember_speed_switch = 2131363397;
+    public static int oneme_playback_settings_sheet_remember_speed_title = 2131363398;
+    public static int oneme_playback_settings_sheet_slider_view = 2131363399;
+    public static int oneme_playback_settings_sheet_title_view = 2131363400;
+    public static int video_container = 2131364446;
+    public static int video_container_id = 2131364447;
+    public static int video_error = 2131364449;
+    public static int video_frame_id = 2131364450;
+    public static int video_go_to_message = 2131364451;
+    public static int video_progressbar = 2131364452;
+    public static int video_progressbar_buffering = 2131364453;
+    public static int video_share = 2131364454;
+    public static int video_toolbar_id = 2131364455;
+    public static int video_webview_container = 2131364459;
+    public static int video_webview_id = 2131364460;
+}

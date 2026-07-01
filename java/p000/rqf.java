@@ -1,0 +1,52 @@
+package p000;
+
+/* loaded from: classes3.dex */
+public abstract class rqf {
+    public static int CompanyName = 2131886098;
+    public static int app_host = 2131886276;
+    public static int app_host_1 = 2131886277;
+    public static int app_host_2 = 2131886278;
+    public static int app_host_3 = 2131886279;
+    public static int app_host_prod = 2131886280;
+    public static int app_host_prod_port = 2131886281;
+    public static int app_host_redirects = 2131886282;
+    public static int app_package_name = 2131886285;
+    public static int app_scheme = 2131886286;
+    public static int auth_path = 2131886342;
+    public static int folder_path = 2131887573;
+    public static int gcm_defaultSenderId = 2131887646;
+    public static int google_api_key = 2131887657;
+    public static int google_app_id = 2131887658;
+    public static int google_crash_reporting_api_key = 2131887659;
+    public static int google_storage_bucket = 2131887660;
+    public static int join_chat_application_note = 2131887686;
+    public static int join_chat_apply_button = 2131887687;
+    public static int join_chat_confirm_channel_button = 2131887688;
+    public static int join_chat_confirm_chat_button = 2131887689;
+    public static int join_chat_title_channel = 2131887691;
+    public static int join_chat_title_chat = 2131887692;
+    public static int link_call_join_path = 2131887723;
+    public static int link_chat_join_path = 2131887724;
+    public static int link_chat_path = 2131887725;
+    public static int link_host_api = 2131887736;
+    public static int link_private_channel_path = 2131887744;
+    public static int link_private_contact_path = 2131887745;
+    public static int link_startwebapp_path = 2131887748;
+    public static int link_stickerset_path = 2131887749;
+    public static int oneme_app_name = 2131888224;
+    public static int oneme_contact_saved_snackbar_title = 2131888347;
+    public static int project_id = 2131889636;
+    public static int snackbar_content_level_error_title = 2131889846;
+    public static int snackbar_folder_link_error_caption = 2131889847;
+    public static int snackbar_folder_link_error_title = 2131889848;
+    public static int snackbar_join_chat_restricted_error_title = 2131889849;
+    public static int snackbar_join_request_submitted_caption = 2131889850;
+    public static int snackbar_join_request_submitted_title = 2131889851;
+    public static int snackbar_link_info_error = 2131889852;
+    public static int snackbar_self_contact_open = 2131889854;
+    public static int snackbar_text_button_why = 2131889856;
+    public static int tracer_app_token = 2131889907;
+    public static int tracer_environment = 2131889908;
+    public static int tracer_mapping_uuid = 2131889909;
+    public static int web_scheme = 2131890228;
+}

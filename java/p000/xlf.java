@@ -1,0 +1,58 @@
+package p000;
+
+/* loaded from: classes4.dex */
+public abstract class xlf {
+    public static int chat__audio_record = 2131362321;
+    public static int chat__background = 2131362322;
+    public static int chat__bottom_container = 2131362323;
+    public static int chat__bottom_container_chat_status_button = 2131362324;
+    public static int chat__bottom_container_search = 2131362325;
+    public static int chat__bottom_container_search_down_button = 2131362326;
+    public static int chat__bottom_container_search_separator = 2131362327;
+    public static int chat__bottom_container_search_up_button = 2131362328;
+    public static int chat__main_container = 2131362329;
+    public static int chat__media_bar_container = 2131362330;
+    public static int chat__media_keyboard = 2131362331;
+    public static int chat__messages_container = 2131362332;
+    public static int chat__pinbars_container = 2131362333;
+    public static int chat__root_container = 2131362334;
+    public static int chat__search_view = 2131362335;
+    public static int chat__suggestion_container = 2131362336;
+    public static int chat__toolbar = 2131362337;
+    public static int chat__video_msg_container = 2131362338;
+    public static int chat_screen__action_cancel = 2131362341;
+    public static int chat_screen__confirm_send_message_negative = 2131362342;
+    public static int chat_screen__confirm_send_message_positive = 2131362343;
+    public static int chat_screen__error_restricted_send_message_action = 2131362344;
+    public static int chat_screen__error_restricted_send_message_cancel = 2131362345;
+    public static int chat_screen__leave_chat_confirm = 2131362346;
+    public static int chat_screen__remove_chat_confirm = 2131362347;
+    public static int chat_screen__video_msg_placeholder = 2131362348;
+    public static int chat_screen__video_msg_preview = 2131362349;
+    public static int chat_screen__video_msg_progress = 2131362350;
+    public static int chat_screen__video_msg_root_container = 2131362351;
+    public static int chat_screen__video_msg_switch_camera_btn = 2131362352;
+    public static int chat_screen__video_msg_timer = 2131362353;
+    public static int chat_screen__video_msg_torch_btn = 2131362354;
+    public static int chat_screen__video_msg_trim_slider_view_container = 2131362355;
+    public static int chat_screen__video_msg_video_view = 2131362356;
+    public static int media_bar__album_chooser = 2131362694;
+    public static int media_bar__bottom_container = 2131362695;
+    public static int media_bar__draggable_container = 2131362696;
+    public static int media_bar__emoji_keyboard_container = 2131362697;
+    public static int media_bar__media_type_buttons_recycler = 2131362698;
+    public static int media_bar__media_type_picker_button = 2131362699;
+    public static int media_bar__message_container = 2131362700;
+    public static int media_bar__partial_media_access_container = 2131362701;
+    public static int media_bar__popup_layout = 2131362702;
+    public static int media_bar__primary_container = 2131362703;
+    public static int media_bar__select_album_container = 2131362704;
+    public static int media_bar__selected_media_container = 2131362705;
+    public static int selected_media__content_container = 2131364248;
+    public static int selected_media__delete_choice = 2131364249;
+    public static int selected_media__main_container = 2131364250;
+    public static int selected_media__media_keyboard_container = 2131364251;
+    public static int selected_media__message_input = 2131364252;
+    public static int selected_media__recycler = 2131364253;
+    public static int selected_media__recycler_container = 2131364254;
+}

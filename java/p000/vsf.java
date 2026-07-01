@@ -1,0 +1,70 @@
+package p000;
+
+/* loaded from: classes5.dex */
+public abstract class vsf {
+    public static int oneme_settings_privace_screen_dialog_content_level_access_title = 2131888855;
+    public static int oneme_settings_privacy_access_level_all = 2131888856;
+    public static int oneme_settings_privacy_access_level_contacts = 2131888857;
+    public static int oneme_settings_privacy_access_level_content_all = 2131888858;
+    public static int oneme_settings_privacy_access_level_content_safe = 2131888859;
+    public static int oneme_settings_privacy_access_level_nobody = 2131888860;
+    public static int oneme_settings_privacy_black_list_cancel = 2131888861;
+    public static int oneme_settings_privacy_black_list_dialog_title = 2131888862;
+    public static int oneme_settings_privacy_black_list_dialog_unblock = 2131888863;
+    public static int oneme_settings_privacy_black_list_empty_state_desc = 2131888864;
+    public static int oneme_settings_privacy_black_list_toolbar_title = 2131888865;
+    public static int oneme_settings_privacy_black_list_unblocked_success = 2131888866;
+    public static int oneme_settings_privacy_change_disabled_description = 2131888867;
+    public static int oneme_settings_privacy_change_disabled_title = 2131888868;
+    public static int oneme_settings_privacy_content_level_access = 2131888869;
+    public static int oneme_settings_privacy_content_level_access_all = 2131888870;
+    public static int oneme_settings_privacy_content_level_access_message_success = 2131888871;
+    public static int oneme_settings_privacy_content_level_access_safe = 2131888872;
+    public static int oneme_settings_privacy_enter_pin_code_description = 2131888873;
+    public static int oneme_settings_privacy_enter_pin_code_title = 2131888874;
+    public static int oneme_settings_privacy_family_protection_admin = 2131888875;
+    public static int oneme_settings_privacy_family_protection_manageable = 2131888876;
+    public static int oneme_settings_privacy_family_protection_off = 2131888877;
+    public static int oneme_settings_privacy_forgot_pin_code = 2131888878;
+    public static int oneme_settings_privacy_forgot_pin_code_write_support = 2131888879;
+    public static int oneme_settings_privacy_info_header = 2131888880;
+    public static int oneme_settings_privacy_onboarding_come_up_pin_code = 2131888881;
+    public static int oneme_settings_privacy_onboarding_content_subtitle = 2131888882;
+    public static int oneme_settings_privacy_onboarding_error_pin_code_equals = 2131888883;
+    public static int oneme_settings_privacy_onboarding_item_1_subtitle = 2131888884;
+    public static int oneme_settings_privacy_onboarding_item_1_title = 2131888885;
+    public static int oneme_settings_privacy_onboarding_item_2_subtitle = 2131888886;
+    public static int oneme_settings_privacy_onboarding_item_2_title = 2131888887;
+    public static int oneme_settings_privacy_onboarding_item_3_subtitle = 2131888888;
+    public static int oneme_settings_privacy_onboarding_item_3_title = 2131888889;
+    public static int oneme_settings_privacy_onboarding_item_4_subtitle = 2131888890;
+    public static int oneme_settings_privacy_onboarding_item_4_title = 2131888891;
+    public static int oneme_settings_privacy_onboarding_re_enter_pin_code = 2131888892;
+    public static int oneme_settings_privacy_onboarding_set_pin_code = 2131888893;
+    public static int oneme_settings_privacy_screen_add_me_to_chat = 2131888894;
+    public static int oneme_settings_privacy_screen_black_list = 2131888895;
+    public static int oneme_settings_privacy_screen_black_list_description = 2131888896;
+    public static int oneme_settings_privacy_screen_call_me = 2131888897;
+    public static int oneme_settings_privacy_screen_dialog_add_chat_title = 2131888898;
+    public static int oneme_settings_privacy_screen_dialog_call_title = 2131888899;
+    public static int oneme_settings_privacy_screen_dialog_online_title = 2131888900;
+    public static int oneme_settings_privacy_screen_dialog_seach_by_phone_title = 2131888901;
+    public static int oneme_settings_privacy_screen_dialog_see_phone_number = 2131888902;
+    public static int oneme_settings_privacy_screen_family_protection_title = 2131888903;
+    public static int oneme_settings_privacy_screen_how_can_section = 2131888904;
+    public static int oneme_settings_privacy_screen_how_session = 2131888905;
+    public static int oneme_settings_privacy_screen_safe_mode = 2131888906;
+
+    /* renamed from: oneme_settings_privacy_screen_safe_mode_change_disabled_snackbar_title */
+    public static int f113155x58ccfedd = 2131888907;
+    public static int oneme_settings_privacy_screen_safe_mode_disabled_snackbar_title = 2131888908;
+    public static int oneme_settings_privacy_screen_safe_mode_enabled_snackbar_title = 2131888909;
+    public static int oneme_settings_privacy_screen_search_by_phone = 2131888910;
+    public static int oneme_settings_privacy_screen_see_online_state = 2131888911;
+    public static int oneme_settings_privacy_screen_see_phone_number = 2131888912;
+    public static int oneme_settings_privacy_screen_twofa_disabled = 2131888913;
+    public static int oneme_settings_privacy_screen_twofa_email_warning = 2131888914;
+    public static int oneme_settings_privacy_screen_twofa_enabled = 2131888915;
+    public static int oneme_settings_privacy_screen_twofa_title = 2131888916;
+    public static int oneme_settings_privacy_screen_web_apps = 2131888917;
+}
