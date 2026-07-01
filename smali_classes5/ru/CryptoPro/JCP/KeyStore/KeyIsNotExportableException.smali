@@ -1,0 +1,22 @@
+.class public Lru/CryptoPro/JCP/KeyStore/KeyIsNotExportableException;
+.super Ljava/security/KeyStoreException;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/security/KeyStoreException;-><init>()V
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;)V
+    .locals 0
+
+    .line 2
+    invoke-direct {p0, p1}, Ljava/security/KeyStoreException;-><init>(Ljava/lang/String;)V
+
+    return-void
+.end method

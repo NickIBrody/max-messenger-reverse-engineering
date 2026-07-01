@@ -1,0 +1,51 @@
+.class public Lthm;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Ljava/security/PrivilegedAction;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a()Ljava/lang/Boolean;
+    .locals 3
+
+    new-instance v0, Lru/CryptoPro/JCP/pref/JCPPref;
+
+    const-class v1, Lru/CryptoPro/CAdES/tools/EnvelopedUtility;
+
+    invoke-direct {v0, v1}, Lru/CryptoPro/JCP/pref/JCPPref;-><init>(Ljava/lang/Class;)V
+
+    const-string v1, "ru.CryptoPro.key_agreement_validation"
+
+    const/4 v2, 0x1
+
+    invoke-virtual {v0, v1, v2}, Lru/CryptoPro/JCP/pref/JCPPref;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public synthetic run()Ljava/lang/Object;
+    .locals 1
+
+    invoke-virtual {p0}, Lthm;->a()Ljava/lang/Boolean;
+
+    move-result-object v0
+
+    return-object v0
+.end method

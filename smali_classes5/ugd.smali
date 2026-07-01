@@ -1,0 +1,36 @@
+.class public final synthetic Lugd;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lbt7;
+
+
+# instance fields
+.field public final synthetic w:Lone/video/view/OneVideoPlayerView;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lone/video/view/OneVideoPlayerView;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lugd;->w:Lone/video/view/OneVideoPlayerView;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    iget-object v0, p0, Lugd;->w:Lone/video/view/OneVideoPlayerView;
+
+    invoke-static {v0}, Lone/video/view/OneVideoPlayerView;->e(Lone/video/view/OneVideoPlayerView;)Ltfl;
+
+    move-result-object v0
+
+    return-object v0
+.end method

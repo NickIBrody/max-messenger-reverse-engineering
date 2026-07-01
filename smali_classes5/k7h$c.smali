@@ -1,0 +1,471 @@
+.class public final Lk7h$c;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lk7h;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lk7h;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "c"
+.end annotation
+
+
+# instance fields
+.field public final A:Lone/me/sdk/sections/SettingsItem$d;
+
+.field public final B:Lone/me/sdk/uikit/common/TextSource;
+
+.field public final C:Lone/me/sdk/sections/SettingsItem$EndViewType;
+
+.field public final D:I
+
+.field public final w:Lx7h$b;
+
+.field public final x:Lone/me/sdk/uikit/common/TextSource;
+
+.field public final y:I
+
+.field public final z:J
+
+
+# direct methods
+.method public constructor <init>(Lx7h$b;Lone/me/sdk/uikit/common/TextSource;IJLone/me/sdk/sections/SettingsItem$d;Lone/me/sdk/uikit/common/TextSource;Lone/me/sdk/sections/SettingsItem$EndViewType;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    iput-object p1, p0, Lk7h$c;->w:Lx7h$b;
+
+    .line 3
+    iput-object p2, p0, Lk7h$c;->x:Lone/me/sdk/uikit/common/TextSource;
+
+    .line 4
+    iput p3, p0, Lk7h$c;->y:I
+
+    .line 5
+    iput-wide p4, p0, Lk7h$c;->z:J
+
+    .line 6
+    iput-object p6, p0, Lk7h$c;->A:Lone/me/sdk/sections/SettingsItem$d;
+
+    .line 7
+    iput-object p7, p0, Lk7h$c;->B:Lone/me/sdk/uikit/common/TextSource;
+
+    .line 8
+    iput-object p8, p0, Lk7h$c;->C:Lone/me/sdk/sections/SettingsItem$EndViewType;
+
+    .line 9
+    sget p1, Lh9d;->P:I
+
+    iput p1, p0, Lk7h$c;->D:I
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lx7h$b;Lone/me/sdk/uikit/common/TextSource;IJLone/me/sdk/sections/SettingsItem$d;Lone/me/sdk/uikit/common/TextSource;Lone/me/sdk/sections/SettingsItem$EndViewType;ILxd5;)V
+    .locals 10
+
+    and-int/lit8 v0, p9, 0x10
+
+    if-eqz v0, :cond_0
+
+    .line 10
+    sget-object v0, Lone/me/sdk/sections/SettingsItem$d;->SIMPLE:Lone/me/sdk/sections/SettingsItem$d;
+
+    move-object v7, v0
+
+    goto :goto_0
+
+    :cond_0
+    move-object/from16 v7, p6
+
+    :goto_0
+    and-int/lit8 v0, p9, 0x20
+
+    const/4 v1, 0x0
+
+    if-eqz v0, :cond_1
+
+    move-object v8, v1
+
+    goto :goto_1
+
+    :cond_1
+    move-object/from16 v8, p7
+
+    :goto_1
+    and-int/lit8 v0, p9, 0x40
+
+    if-eqz v0, :cond_2
+
+    move-object v9, v1
+
+    move-object v2, p1
+
+    move-object v3, p2
+
+    move v4, p3
+
+    move-wide v5, p4
+
+    move-object v1, p0
+
+    goto :goto_2
+
+    :cond_2
+    move-object/from16 v9, p8
+
+    move-object v1, p0
+
+    move-object v2, p1
+
+    move-object v3, p2
+
+    move v4, p3
+
+    move-wide v5, p4
+
+    .line 11
+    :goto_2
+    invoke-direct/range {v1 .. v9}, Lk7h$c;-><init>(Lx7h$b;Lone/me/sdk/uikit/common/TextSource;IJLone/me/sdk/sections/SettingsItem$d;Lone/me/sdk/uikit/common/TextSource;Lone/me/sdk/sections/SettingsItem$EndViewType;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a()Lx7h$b;
+    .locals 1
+
+    iget-object v0, p0, Lk7h$c;->w:Lx7h$b;
+
+    return-object v0
+.end method
+
+.method public d()Lone/me/sdk/uikit/common/TextSource;
+    .locals 1
+
+    iget-object v0, p0, Lk7h$c;->B:Lone/me/sdk/uikit/common/TextSource;
+
+    return-object v0
+.end method
+
+.method public e()Lone/me/sdk/sections/SettingsItem$EndViewType;
+    .locals 1
+
+    iget-object v0, p0, Lk7h$c;->C:Lone/me/sdk/sections/SettingsItem$EndViewType;
+
+    return-object v0
+.end method
+
+.method public equals(Ljava/lang/Object;)Z
+    .locals 7
+
+    const/4 v0, 0x1
+
+    if-ne p0, p1, :cond_0
+
+    return v0
+
+    :cond_0
+    instance-of v1, p1, Lk7h$c;
+
+    const/4 v2, 0x0
+
+    if-nez v1, :cond_1
+
+    return v2
+
+    :cond_1
+    check-cast p1, Lk7h$c;
+
+    iget-object v1, p0, Lk7h$c;->w:Lx7h$b;
+
+    iget-object v3, p1, Lk7h$c;->w:Lx7h$b;
+
+    if-eq v1, v3, :cond_2
+
+    return v2
+
+    :cond_2
+    iget-object v1, p0, Lk7h$c;->x:Lone/me/sdk/uikit/common/TextSource;
+
+    iget-object v3, p1, Lk7h$c;->x:Lone/me/sdk/uikit/common/TextSource;
+
+    invoke-static {v1, v3}, Ljy8;->e(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_3
+
+    return v2
+
+    :cond_3
+    iget v1, p0, Lk7h$c;->y:I
+
+    iget v3, p1, Lk7h$c;->y:I
+
+    if-eq v1, v3, :cond_4
+
+    return v2
+
+    :cond_4
+    iget-wide v3, p0, Lk7h$c;->z:J
+
+    iget-wide v5, p1, Lk7h$c;->z:J
+
+    cmp-long v1, v3, v5
+
+    if-eqz v1, :cond_5
+
+    return v2
+
+    :cond_5
+    iget-object v1, p0, Lk7h$c;->A:Lone/me/sdk/sections/SettingsItem$d;
+
+    iget-object v3, p1, Lk7h$c;->A:Lone/me/sdk/sections/SettingsItem$d;
+
+    if-eq v1, v3, :cond_6
+
+    return v2
+
+    :cond_6
+    iget-object v1, p0, Lk7h$c;->B:Lone/me/sdk/uikit/common/TextSource;
+
+    iget-object v3, p1, Lk7h$c;->B:Lone/me/sdk/uikit/common/TextSource;
+
+    invoke-static {v1, v3}, Ljy8;->e(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_7
+
+    return v2
+
+    :cond_7
+    iget-object v1, p0, Lk7h$c;->C:Lone/me/sdk/sections/SettingsItem$EndViewType;
+
+    iget-object p1, p1, Lk7h$c;->C:Lone/me/sdk/sections/SettingsItem$EndViewType;
+
+    invoke-static {v1, p1}, Ljy8;->e(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-nez p1, :cond_8
+
+    return v2
+
+    :cond_8
+    return v0
+.end method
+
+.method public getItemId()J
+    .locals 2
+
+    iget-wide v0, p0, Lk7h$c;->z:J
+
+    return-wide v0
+.end method
+
+.method public getTitle()Lone/me/sdk/uikit/common/TextSource;
+    .locals 1
+
+    iget-object v0, p0, Lk7h$c;->x:Lone/me/sdk/uikit/common/TextSource;
+
+    return-object v0
+.end method
+
+.method public getType()Lone/me/sdk/sections/SettingsItem$d;
+    .locals 1
+
+    iget-object v0, p0, Lk7h$c;->A:Lone/me/sdk/sections/SettingsItem$d;
+
+    return-object v0
+.end method
+
+.method public getViewType()I
+    .locals 1
+
+    iget v0, p0, Lk7h$c;->D:I
+
+    return v0
+.end method
+
+.method public hashCode()I
+    .locals 3
+
+    iget-object v0, p0, Lk7h$c;->w:Lx7h$b;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
+
+    move-result v0
+
+    mul-int/lit8 v0, v0, 0x1f
+
+    iget-object v1, p0, Lk7h$c;->x:Lone/me/sdk/uikit/common/TextSource;
+
+    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
+
+    move-result v1
+
+    add-int/2addr v0, v1
+
+    mul-int/lit8 v0, v0, 0x1f
+
+    iget v1, p0, Lk7h$c;->y:I
+
+    invoke-static {v1}, Ljava/lang/Integer;->hashCode(I)I
+
+    move-result v1
+
+    add-int/2addr v0, v1
+
+    mul-int/lit8 v0, v0, 0x1f
+
+    iget-wide v1, p0, Lk7h$c;->z:J
+
+    invoke-static {v1, v2}, Ljava/lang/Long;->hashCode(J)I
+
+    move-result v1
+
+    add-int/2addr v0, v1
+
+    mul-int/lit8 v0, v0, 0x1f
+
+    iget-object v1, p0, Lk7h$c;->A:Lone/me/sdk/sections/SettingsItem$d;
+
+    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
+
+    move-result v1
+
+    add-int/2addr v0, v1
+
+    mul-int/lit8 v0, v0, 0x1f
+
+    iget-object v1, p0, Lk7h$c;->B:Lone/me/sdk/uikit/common/TextSource;
+
+    const/4 v2, 0x0
+
+    if-nez v1, :cond_0
+
+    move v1, v2
+
+    goto :goto_0
+
+    :cond_0
+    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
+
+    move-result v1
+
+    :goto_0
+    add-int/2addr v0, v1
+
+    mul-int/lit8 v0, v0, 0x1f
+
+    iget-object v1, p0, Lk7h$c;->C:Lone/me/sdk/sections/SettingsItem$EndViewType;
+
+    if-nez v1, :cond_1
+
+    goto :goto_1
+
+    :cond_1
+    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
+
+    move-result v2
+
+    :goto_1
+    add-int/2addr v0, v2
+
+    return v0
+.end method
+
+.method public r()I
+    .locals 1
+
+    iget v0, p0, Lk7h$c;->y:I
+
+    return v0
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 10
+
+    iget-object v0, p0, Lk7h$c;->w:Lx7h$b;
+
+    iget-object v1, p0, Lk7h$c;->x:Lone/me/sdk/uikit/common/TextSource;
+
+    iget v2, p0, Lk7h$c;->y:I
+
+    iget-wide v3, p0, Lk7h$c;->z:J
+
+    iget-object v5, p0, Lk7h$c;->A:Lone/me/sdk/sections/SettingsItem$d;
+
+    iget-object v6, p0, Lk7h$c;->B:Lone/me/sdk/uikit/common/TextSource;
+
+    iget-object v7, p0, Lk7h$c;->C:Lone/me/sdk/sections/SettingsItem$EndViewType;
+
+    new-instance v8, Ljava/lang/StringBuilder;
+
+    invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v9, "SettingStorageItem(sectionItemType="
+
+    invoke-virtual {v8, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v8, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", title="
+
+    invoke-virtual {v8, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v8, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", sectionId="
+
+    invoke-virtual {v8, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v8, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v0, ", itemId="
+
+    invoke-virtual {v8, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v8, v3, v4}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    const-string v0, ", type="
+
+    invoke-virtual {v8, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v8, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", descriptionRes="
+
+    invoke-virtual {v8, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v8, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", endView="
+
+    invoke-virtual {v8, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v8, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v0, ")"
+
+    invoke-virtual {v8, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v8}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

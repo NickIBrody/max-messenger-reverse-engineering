@@ -1,0 +1,282 @@
+.class public Lru/CryptoPro/reprov/array/normalizer/DecompDataCan;
+.super Ljava/lang/Object;
+
+
+# static fields
+.field static final canonClassACh:[C
+
+.field static final canonClassBCh:[C
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    const/16 v0, 0x39
+
+    new-array v0, v0, [C
+
+    fill-array-data v0, :array_0
+
+    sput-object v0, Lru/CryptoPro/reprov/array/normalizer/DecompDataCan;->canonClassACh:[C
+
+    const/16 v0, 0xad
+
+    new-array v0, v0, [C
+
+    fill-array-data v0, :array_1
+
+    sput-object v0, Lru/CryptoPro/reprov/array/normalizer/DecompDataCan;->canonClassBCh:[C
+
+    return-void
+
+    nop
+
+    :array_0
+    .array-data 2
+        0x0s
+        0x200s
+        -0x5a5bs
+        0x6s
+        0x0s
+        0x80s
+        0x0s
+        0x0s
+        0x100s
+        0x0s
+        0x180s
+        0x200s
+        0x280s
+        0x300s
+        0x0s
+        0x0s
+        0x0s
+        0x380s
+        -0x5a5bs
+        0x4s
+        0x400s
+        0x480s
+        0x500s
+        0x480s
+        0x480s
+        0x580s
+        0x600s
+        0x680s
+        0x700s
+        0x780s
+        0x800s
+        -0x5a5bs
+        0xes
+        0x0s
+        0x880s
+        0x0s
+        0x900s
+        -0x5a5bs
+        0xfs
+        0x0s
+        0x980s
+        -0x5a5bs
+        0x1es
+        0x0s
+        0xa00s
+        0xa80s
+        -0x5a5bs
+        0x194s
+        0x0s
+        0xb00s
+        -0x5a5bs
+        0x5s
+        0x0s
+        0xb80s
+        0x0s
+        0x0s
+        0x0s
+    .end array-data
+
+    nop
+
+    :array_1
+    .array-data 2
+        0x0s
+        0xc00s
+        -0x5a80s
+        0xa5s
+        0x15e6s
+        -0x175bs
+        0x4dcs
+        -0x1728s
+        -0x5afbs
+        -0x2336s
+        -0x355bs
+        0x4dcs
+        -0x3536s
+        -0x5af5s
+        -0x235bs
+        0x501s
+        -0x5afcs
+        -0x235bs
+        0x8e6s
+        -0xf1as
+        -0x2324s
+        -0x231as
+        -0x191as
+        -0x2324s
+        -0x5aefs
+        0xeas
+        -0x1517s
+        -0x5ae0s
+        0xa5s
+        0x4e6s
+        -0x5a76s
+        0xdcs
+        -0x5afcs
+        -0x1924s
+        -0x191as
+        -0x1922s
+        -0x235bs
+        0x6e6s
+        0xa5s
+        0x5dcs
+        -0x191as
+        -0x231as
+        -0x1922s
+        -0x1b1as
+        0xa0bs
+        0xc0ds
+        0xe0fs
+        0x1011s
+        0x1213s
+        0x14s
+        0x1516s
+        0x17s
+        0x18s
+        0x1900s
+        -0x195bs
+        -0x7a00s
+        0x1b1cs
+        0x1d1es
+        0x1f20s
+        0x2122s
+        -0x191as
+        -0x235bs
+        0x1a00s
+        0x23a5s
+        0x6500s
+        -0x5af9s
+        -0x1a00s
+        0xa5s
+        0x4e6s
+        -0x231as
+        0x0s
+        -0x191as
+        0xdcs
+        -0x191as
+        -0x235bs
+        0x2300s
+        0x24a5s
+        0x1e00s
+        -0x1924s
+        -0x191as
+        -0x231as
+        -0x1924s
+        -0x2324s
+        -0x1924s
+        -0x231as
+        -0x231as
+        -0x191as
+        -0x231as
+        -0x231as
+        -0x231as
+        -0x231as
+        -0x195bs
+        0x7100s
+        0x7a5s
+        0x1000s
+        0x900s
+        0x0s
+        -0x1924s
+        -0x191as
+        -0x5a99s
+        0x7s
+        -0x5af0s
+        0x9s
+        -0x5a81s
+        0x9s
+        -0x5a81s
+        0x9s
+        -0x5af9s
+        0x54s
+        0x5ba5s
+        0x7300s
+        0x9a5s
+        0x6d00s
+        0x6767s
+        0x9a5s
+        0xd00s
+        -0x5afcs
+        0x6ba5s
+        0x6c00s
+        0x7676s
+        -0x5af2s
+        0xa5s
+        0x47as
+        -0x5ab4s
+        0xdcs
+        -0x235bs
+        0x1b00s
+        -0x2400s
+        -0x2400s
+        -0x275bs
+        0x3700s
+        -0x7e7es
+        0x84s
+        -0x5afbs
+        0xa5s
+        0x482s
+        0x0s
+        -0x7e00s
+        -0x191as
+        0x900s
+        -0x191as
+        -0x5ac2s
+        0xdcs
+        -0x5a90s
+        0x7s
+        0x9s
+        -0x5a68s
+        0x9s
+        -0x5aaas
+        0xe4s
+        -0x5a5as
+        0xe6s
+        -0x19ffs
+        0x1a5s
+        0x4e6s
+        0x101s
+        0x1e6s
+        -0x195bs
+        0x400s
+        -0x195bs
+        0x4800s
+        -0x251cs
+        -0x1722s
+        -0x1f20s
+        -0x5a97s
+        0x8s
+        0x8a5s
+        -0x7d00s
+        0x1aa5s
+        -0x7f00s
+        -0x5afcs
+        -0x195bs
+        0x5c00s
+    .end array-data
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

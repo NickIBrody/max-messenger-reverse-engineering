@@ -1,0 +1,58 @@
+.class final Lru/CryptoPro/JCPxml/dsig/internal/dom/DOMSignatureMethod$GOST3411_2012_512withGOST3410_2012_512_URN;
+.super Lru/CryptoPro/JCPxml/dsig/internal/dom/DOMSignatureMethod;
+
+
+# direct methods
+.method public constructor <init>(Ljava/security/spec/AlgorithmParameterSpec;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/security/InvalidAlgorithmParameterException;
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0, p1}, Lru/CryptoPro/JCPxml/dsig/internal/dom/DOMSignatureMethod;-><init>(Ljava/security/spec/AlgorithmParameterSpec;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Lorg/w3c/dom/Element;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljavax/xml/crypto/MarshalException;
+        }
+    .end annotation
+
+    .line 2
+    invoke-direct {p0, p1}, Lru/CryptoPro/JCPxml/dsig/internal/dom/DOMSignatureMethod;-><init>(Lorg/w3c/dom/Element;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getAlgorithm()Ljava/lang/String;
+    .locals 1
+
+    const-string v0, "urn:ietf:params:xml:ns:cpxmlsec:algorithms:gostr34102012-gostr34112012-512"
+
+    return-object v0
+.end method
+
+.method public getAlgorithmType()Lru/CryptoPro/JCPxml/dsig/internal/dom/AbstractDOMSignatureMethod$Type;
+    .locals 1
+
+    sget-object v0, Lru/CryptoPro/JCPxml/dsig/internal/dom/AbstractDOMSignatureMethod$Type;->GOST_2012_512:Lru/CryptoPro/JCPxml/dsig/internal/dom/AbstractDOMSignatureMethod$Type;
+
+    return-object v0
+.end method
+
+.method public getJCAAlgorithm()Ljava/lang/String;
+    .locals 1
+
+    const-string v0, "GOST3411_2012_512withGOST3410_2012_512"
+
+    return-object v0
+.end method

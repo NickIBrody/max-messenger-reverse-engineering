@@ -1,0 +1,26 @@
+.class public abstract Lru/CryptoPro/AdES/tools/revocation/impl/SingleRevocationURLStrategy;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Lru/CryptoPro/AdES/tools/revocation/template/RevocationURLStrategy;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lru/CryptoPro/AdES/tools/revocation/template/RevocationURLStrategy<",
+        "Lru/CryptoPro/AdES/tools/revocation/RevocationURL;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

@@ -1,0 +1,36 @@
+.class public final synthetic Lirc;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lbt7;
+
+
+# instance fields
+.field public final synthetic w:Lone/me/sdk/uikit/common/avatar/OneMeAvatarView;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lone/me/sdk/uikit/common/avatar/OneMeAvatarView;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lirc;->w:Lone/me/sdk/uikit/common/avatar/OneMeAvatarView;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    iget-object v0, p0, Lirc;->w:Lone/me/sdk/uikit/common/avatar/OneMeAvatarView;
+
+    invoke-static {v0}, Lone/me/sdk/uikit/common/avatar/OneMeAvatarView;->i(Lone/me/sdk/uikit/common/avatar/OneMeAvatarView;)Lone/me/sdk/uikit/common/drawable/DrawableWithGradientBackground;
+
+    move-result-object v0
+
+    return-object v0
+.end method
