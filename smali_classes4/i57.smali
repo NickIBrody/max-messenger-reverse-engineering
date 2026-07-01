@@ -1,0 +1,42 @@
+.class public final synthetic Li57;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lbt7;
+
+
+# instance fields
+.field public final synthetic w:Landroid/content/Context;
+
+.field public final synthetic x:Lone/me/messages/list/ui/view/file/FileMessageLayout;
+
+
+# direct methods
+.method public synthetic constructor <init>(Landroid/content/Context;Lone/me/messages/list/ui/view/file/FileMessageLayout;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Li57;->w:Landroid/content/Context;
+
+    iput-object p2, p0, Li57;->x:Lone/me/messages/list/ui/view/file/FileMessageLayout;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 2
+
+    iget-object v0, p0, Li57;->w:Landroid/content/Context;
+
+    iget-object v1, p0, Li57;->x:Lone/me/messages/list/ui/view/file/FileMessageLayout;
+
+    invoke-static {v0, v1}, Lone/me/messages/list/ui/view/file/FileMessageLayout;->i(Landroid/content/Context;Lone/me/messages/list/ui/view/file/FileMessageLayout;)Lone/me/messages/list/ui/view/attach/ImageAttachDraweeView;
+
+    move-result-object v0
+
+    return-object v0
+.end method

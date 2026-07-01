@@ -1,0 +1,43 @@
+.class public final Lone/me/profileedit/screens/reactions/b$b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lone/me/profileedit/screens/reactions/b;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lone/me/profileedit/screens/reactions/b;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "b"
+.end annotation
+
+
+# static fields
+.field public static final a:Lone/me/profileedit/screens/reactions/b$b;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lone/me/profileedit/screens/reactions/b$b;
+
+    invoke-direct {v0}, Lone/me/profileedit/screens/reactions/b$b;-><init>()V
+
+    sput-object v0, Lone/me/profileedit/screens/reactions/b$b;->a:Lone/me/profileedit/screens/reactions/b$b;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

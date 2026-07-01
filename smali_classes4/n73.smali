@@ -1,0 +1,36 @@
+.class public final synthetic Ln73;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lbt7;
+
+
+# instance fields
+.field public final synthetic w:Lone/me/profile/screens/media/g;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lone/me/profile/screens/media/g;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Ln73;->w:Lone/me/profile/screens/media/g;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    iget-object v0, p0, Ln73;->w:Lone/me/profile/screens/media/g;
+
+    invoke-static {v0}, Lone/me/profile/screens/media/g;->v0(Lone/me/profile/screens/media/g;)Ljava/util/Set;
+
+    move-result-object v0
+
+    return-object v0
+.end method
