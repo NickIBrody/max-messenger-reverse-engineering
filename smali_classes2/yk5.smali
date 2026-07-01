@@ -1,0 +1,60 @@
+.class public final synthetic Lyk5;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroidx/media3/exoplayer/trackselection/DefaultTrackSelector$h$a;
+
+
+# instance fields
+.field public final synthetic a:Landroidx/media3/exoplayer/trackselection/DefaultTrackSelector;
+
+.field public final synthetic b:Landroidx/media3/exoplayer/trackselection/DefaultTrackSelector$e;
+
+.field public final synthetic c:Z
+
+.field public final synthetic d:[I
+
+
+# direct methods
+.method public synthetic constructor <init>(Landroidx/media3/exoplayer/trackselection/DefaultTrackSelector;Landroidx/media3/exoplayer/trackselection/DefaultTrackSelector$e;Z[I)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lyk5;->a:Landroidx/media3/exoplayer/trackselection/DefaultTrackSelector;
+
+    iput-object p2, p0, Lyk5;->b:Landroidx/media3/exoplayer/trackselection/DefaultTrackSelector$e;
+
+    iput-boolean p3, p0, Lyk5;->c:Z
+
+    iput-object p4, p0, Lyk5;->d:[I
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(ILs6k;[I)Ljava/util/List;
+    .locals 7
+
+    iget-object v0, p0, Lyk5;->a:Landroidx/media3/exoplayer/trackselection/DefaultTrackSelector;
+
+    iget-object v1, p0, Lyk5;->b:Landroidx/media3/exoplayer/trackselection/DefaultTrackSelector$e;
+
+    iget-boolean v2, p0, Lyk5;->c:Z
+
+    iget-object v3, p0, Lyk5;->d:[I
+
+    move v4, p1
+
+    move-object v5, p2
+
+    move-object v6, p3
+
+    invoke-static/range {v0 .. v6}, Landroidx/media3/exoplayer/trackselection/DefaultTrackSelector;->q(Landroidx/media3/exoplayer/trackselection/DefaultTrackSelector;Landroidx/media3/exoplayer/trackselection/DefaultTrackSelector$e;Z[IILs6k;[I)Ljava/util/List;
+
+    move-result-object p1
+
+    return-object p1
+.end method
