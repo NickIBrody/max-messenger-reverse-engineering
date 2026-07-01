@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CryptoPro.AppTheme" parent="@style/Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:colorBackground">@color/background_color</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">?colorPrimaryVariant</item>
+        <item name="android:navigationBarColor">@color/nav_bar_color</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="bottomSheetDialogTheme">@style/CryptoPro.ModalBottomSheetDialog</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorPrimary">@color/blue_day</item>
+        <item name="colorPrimaryVariant">@color/blue_day_dark</item>
+        <item name="colorSecondary">@color/blue_day</item>
+        <item name="colorSecondaryVariant">@color/blue_day_light</item>
+        <item name="materialAlertDialogTheme">@style/CryptoPro.MaterialAlertDialog</item>
+        <item name="snackbarTextViewStyle">@style/CryptoPro.Snackbar</item>
+        <item name="toolbarStyle">@style/CryptoPro.Widget.Toolbar</item>
+    </style>
+</resources>

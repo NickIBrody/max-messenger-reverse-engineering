@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color">#ff101a23</color>
+    <color name="launch_background">#ff191921</color>
+    <color name="launch_logo_tint_color">@color/white</color>
+    <color name="nav_bar_color">@color/background_color</color>
+    <color name="calls_notif_background">#ff191921</color>
+    <color name="calls_notif_green">#ff2cb72d</color>
+    <color name="calls_notif_red">#ffff4128</color>
+</resources>

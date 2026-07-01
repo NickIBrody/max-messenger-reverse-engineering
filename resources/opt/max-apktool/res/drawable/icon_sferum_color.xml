@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#ff7dfae3" android:pathData="M13.503 13.503c3.319-3.32 4.664-7.355 3.005-9.014-1.66-1.66-5.695-0.314-9.014 3.005S2.83 14.848 4.49 16.507c1.659 1.66 5.694 0.314 9.013-3.005" />
+    <path android:fillColor="@drawable/$icon_sferum_color__0" android:pathData="M4.49 4.489a8.5 8.5 0 0 0 0 12.018c-1.64-1.639-0.349-5.595 2.882-8.89a6 6 0 0 1 0.245-0.245c3.294-3.23 7.251-4.522 8.89-2.883a8.5 8.5 0 0 0-12.018 0" />
+    <path android:fillColor="@drawable/$icon_sferum_color__1" android:pathData="M7.493 19.511A8.498 8.498 0 1 0 19.511 7.493c-0.35-0.35-0.808-0.568-1.343-0.658a4 4 0 0 0-0.964-0.04c-1.937 0.141-4.483 1.48-6.706 3.703-2.224 2.224-3.562 4.769-3.702 6.706a4 4 0 0 0 0.039 0.963c0.09 0.536 0.307 0.993 0.658 1.344" />
+</vector>

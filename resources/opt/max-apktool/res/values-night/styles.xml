@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CryptoPro.AppTheme" parent="@style/Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:colorBackground">@color/background_color</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">?colorPrimaryVariant</item>
+        <item name="android:navigationBarColor">@color/nav_bar_color</item>
+        <item name="bottomSheetDialogTheme">@style/CryptoPro.ModalBottomSheetDialog</item>
+        <item name="colorPrimary">@color/blue_night_light</item>
+        <item name="colorPrimaryVariant">@color/blue_night_dark</item>
+        <item name="colorSecondary">@color/blue_night_light</item>
+        <item name="colorSecondaryVariant">@color/blue_night</item>
+        <item name="colorSurface">@color/blue_night_surface</item>
+        <item name="materialAlertDialogTheme">@style/CryptoPro.MaterialAlertDialog</item>
+        <item name="navigationViewStyle">@style/CryptoPro.Widget.NavigationView</item>
+        <item name="snackbarTextViewStyle">@style/CryptoPro.Snackbar</item>
+        <item name="toolbarStyle">@style/CryptoPro.Widget.Toolbar</item>
+    </style>
+    <style name="CryptoPro.ThemeOverlay.Toolbar" parent="@style/ThemeOverlay.MaterialComponents.Toolbar.Surface">
+        <item name="colorPrimary">?colorSurface</item>
+    </style>
+    <style name="CryptoPro.Widget.Toolbar" parent="@style/Widget.MaterialComponents.Toolbar.Surface">
+        <item name="materialThemeOverlay">@style/CryptoPro.ThemeOverlay.Toolbar</item>
+        <item name="subtitleTextAppearance">@style/TextAppearance.MaterialComponents.Subtitle1</item>
+        <item name="titleTextAppearance">@style/TextAppearance.MaterialComponents.Headline6</item>
+    </style>
+    <style name="Theme.MaterialComponents.DayNight" parent="@style/Theme.MaterialComponents" />
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar" parent="@style/Theme.MaterialComponents" />
+    <style name="CryptoPro.ThemeOverlay.NavigationView" parent="">
+        <item name="colorPrimary">@color/blue_night</item>
+        <item name="colorSecondaryVariant">@color/blue_night_light</item>
+    </style>
+    <style name="CryptoPro.Widget.NavigationView" parent="@style/Widget.MaterialComponents.NavigationView">
+        <item name="materialThemeOverlay">@style/CryptoPro.ThemeOverlay.NavigationView</item>
+    </style>
+</resources>

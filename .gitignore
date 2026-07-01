@@ -1,0 +1,21 @@
+# Бинарные файлы — добавляй через Git LFS если нужны
+*.so
+*.dex
+*.apk
+*.jar
+*.keystore
+*.png
+*.jpg
+*.webp
+*.gif
+*.mp3
+*.mp4
+*.ogg
+*.9.png
+*.ttf
+*.otf
+
+# Временные файлы
+*.tmp
+*.log
+.DS_Store
